@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage ('git checkout') {
             steps {
-              git branch: 'master', url: https://github.com/sai3222/hello-world-valaxy-demo-project.git'
+              git branch: 'master', url: 'https://github.com/sai3222/hello-world-valaxy-demo-project.git'
             }
         }    
         stage ('unit testing') {
