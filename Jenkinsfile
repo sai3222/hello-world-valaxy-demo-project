@@ -45,7 +45,7 @@ pipeline {
                      [
                             artifactId: 'webapp', 
                             classifier: '', file: 'target/server.jar',
-                            type: 'war'
+                            type: 'jar'
                             ]
                 ], 
                 credentialsId: 'nexus-auth', 
